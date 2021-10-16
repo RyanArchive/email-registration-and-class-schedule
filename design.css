@@ -2,14 +2,16 @@
 /* Color */
 
 :root {
-	--white: #FFFFFF;
-	--very-dark-gray: #1E1E1E;
-	--medium-light-red: #FF5F5A;
-	--yellow: #FFBE2E;
+	--blue-magenta: #704E8F;
+	--earthborn-bugle: #F7F7F7;
 	--green: #2ACA44;
+	--medium-light-red: #FF5F5A;
+	--very-dark-gray: #1E1E1E;
+	--white: #FFFFFF;
+	--yellow: #FFBE2E;
 }
 
-/* */
+/* General */
 
 * {
 	box-sizing: border-box;
@@ -97,6 +99,10 @@ nav {
 	text-decoration: none;
 }
 
+.navigation-item-active, .navigation-item a:hover {
+	color: var(--yellow);
+}
+
 /* Main */
 
 .main {
@@ -140,4 +146,175 @@ nav {
 
 .main-animation-gif {
 	width: 75%;
+}
+
+/* Register */
+
+.register {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	margin: auto;
+	max-width: 1150px;
+	padding-top: 45px;
+}
+
+/* */
+
+.register-animation {
+	align-items: center;
+	display: flex;
+	width: 45%;
+}
+
+.register-animation-gif {
+	width: 90%;
+}
+
+/* */
+
+.register-form {
+	align-items: center;
+	display: flex;
+	background-color: var(--earthborn-bugle);
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+	width: 55%;
+}
+
+.title-design {
+	height: 100%;
+}
+
+.title-design-color {
+	background-color: var(--blue-magenta);
+	height: 60px;
+	margin-top: 45px;
+	width: 45px;
+}
+
+.register-container {
+	padding-bottom: 45px;
+	padding-top: 45px;
+}
+
+.register-container p {
+	margin-bottom: 5px;
+}
+
+.register-form-tdspace {
+	width: 40px;
+}
+
+.register-form input {
+	border-radius: 5px;
+	border-width: 1px;
+	margin-bottom: 20px;
+	padding: 7px;
+	width: 250px;
+}
+
+.register-form tr:nth-child(1) {
+	height: 80px;
+}
+
+.register-form tr:nth-child(1) div {
+	align-items: center;
+	background-color: var(--blue-magenta);
+	border-radius: 0 5px 5px 0;
+	display: flex;
+	color: var(--white);
+	font-size: 21px;
+	font-weight: 600;
+	height: 60px;
+	margin-bottom: 30px;
+}
+
+.submit {
+	background-color: var(--blue-magenta);
+	border: 0px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	height: 45px;
+	width: 130px;
+}
+
+/* Schedule */
+
+.schedule {
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	max-width: 1400px;
+}
+
+/* */
+
+.schedule-container table {
+	border-radius: 10px;
+	margin: 50px;
+	width: calc(100% - 40px);
+}
+
+.schedule-container thead {
+	background-color: var(--blue-magenta);
+}
+
+.schedule-container thead tr {
+	border-radius: 10px;
+}
+
+.schedule-container thead td {
+	color: var(--white);
+}
+
+.schedule-container tr td:nth-child(1) {
+	border-radius: 5px 0 0 5px;
+}
+
+.schedule-container tr td:last-child {
+	border-radius: 0 5px 5px 0;
+}
+
+.schedule-container td {
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	width: 200px;
+}
+
+.schedule-container tr:nth-child(even) {
+	background-color: var(--earthborn-bugle);
+}
+
+.schedule-subject-1 {
+	background-color: #FFE599;
+	border-radius: 0px;
+}
+
+.schedule-subject-2 {
+	background-color: #F7CAAC;
+	border-radius: 0px;
+}
+
+.schedule-subject-3 {
+	background-color: #DBDBDB;
+	border-radius: 0px;
+}
+
+.schedule-subject-4 {
+	background-color: #C5E0B3;
+	border-radius: 0px;
+}
+
+.schedule-subject-5 {
+	background-color: #BDD6EE;
+	border-radius: 0px;
 }
