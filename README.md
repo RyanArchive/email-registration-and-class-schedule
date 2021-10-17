@@ -8,6 +8,10 @@ Email registration form, and a table of class schedule
 
 Web Systems and Technologies | 02 Hands-on Activity 1
 
+### Note
+
+This is just a static design.
+
 <br>
 
 ## Screenshot
