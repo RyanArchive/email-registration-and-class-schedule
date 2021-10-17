@@ -30,3 +30,7 @@ This is just a static design.
 - HTML
 - CSS
 - Any text editor (e.g. VS Code, Sublime)
+
+### Resources
+
+- [LottieFiles](https://lottiefiles.com/)
